@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: #eee;
+}
+.click,.popupBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.click{
+    color: white;
+    background: rgb(56, 56, 255);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.click:hover{
+    background: blue;
+}
+.popupBox{
+ text-align: center;
+ align-items: center;
+ background: white;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ padding:20px 40px;
+ width: 400px;
+ z-index: 9999;
+}
+.popupBox i{
+    font-size: 60px;
+    color: orangered;
+    border: 5px solid orangered;
+    padding: 20px 40px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.popupBox h1{
+    font-size: 23px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.popupBox label{
+    font-size: 18px;
+    color: #333;
+}
+.btns{
+    margin-top: 40px;
+}
+.btns .btn1,.btns .btn2{
+    color: white;
+    background: gray;
+    padding: 10px 13px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.btn1:hover{
+    background:#333;
+}
+.btn2{
+    margin-left: 10px;
+    background: #ff1e1e;
+}
+.btn2:hover{
+    background: red;
+}
