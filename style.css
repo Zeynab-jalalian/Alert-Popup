@@ -31,6 +31,8 @@ body{
  padding:20px 40px;
  width: 400px;
  z-index: 9999;
+ pointer-events: none;
+ opacity: 0;
 }
 .popupBox i{
     font-size: 60px;
@@ -64,8 +66,8 @@ body{
 }
 .btn2{
     margin-left: 10px;
-    background: #ff1e1e;
+    background: #ff1e1e !important;
 }
 .btn2:hover{
-    background: red;
+    background: rgb(187, 0, 0) !important;
 }
